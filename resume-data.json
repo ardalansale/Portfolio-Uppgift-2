@@ -1,0 +1,42 @@
+
+{
+    "HydroBay":[
+        "User research & testing",
+        "Prototyping & wireframing",
+        "Game design & gamification",
+        "Illustration & graphicdesign",
+        "Video production & VR video",
+        "Marketting & advertisement",
+        "Copywriting & content creation"
+    ],
+    "FKassan": [
+        "Figma",
+        "Filmora",
+        "Autodesk sketchbook",
+        "Photoshop",
+        "Illustrator",
+        "Miro"
+    ],
+
+    "DreamsNordic":[
+        "Fictivereality", 
+        "Modernised and simplified UX/UI design.",
+        "Tested and prototyped solutions for optimal results.",
+        "Content creation for social media and creating effective marketing strategies.",
+        "Video editing and Graphic design for promotions.",
+        "Working agile with programmers. testers and stakeholders."
+    ],
+
+
+    "ChasAcademy":[
+        "Graphic designer"
+    ], 
+    "ChangemakerEdu" :[
+        "Neoludos",
+        "I created the logo based on the company's profession, showcasing their capabilities with my design."
+    ],
+    "LinnaeusUniversity" : [
+        "UX/UI & graphic designer"
+    ]
+
+}
