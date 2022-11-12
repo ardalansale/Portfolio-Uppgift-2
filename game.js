@@ -15,3 +15,12 @@ btn.addEventListener('click', function(){
         output.innerHTML = "The number is to high"
     }
 });
+
+function myFunction() {
+    var x = document.getElementById("game-container");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
