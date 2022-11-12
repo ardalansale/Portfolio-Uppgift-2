@@ -1,0 +1,269 @@
+/* UNIVERSAL */
+
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+
+
+html {
+    font-size: 100%; /* 16 px standard */
+    height: 100%
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* NAV-MENU */
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    margin-left: auto;
+    margin-right: auto;
+    height: 190px;
+    border-radius: 50px;
+}
+
+.ardalan {
+    font-family: 'Modak', Helvetica, sans-serif;
+    color: black;
+    font-size: 8rem; /* 1 rem = 16 px */
+    display: flex;
+    margin: auto;
+}
+
+.nav-item {
+    font-family: Helvetica, sans-serif;
+    color: rgb(142, 142, 142);
+    font-weight: 100;
+    padding: 10px;
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+    margin-top: -40px;
+}
+
+
+.current {
+    color: #FFA665;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* FOOTER */
+
+/* HOME */
+
+#main-home {
+    display: flex;
+    justify-content: center;
+}
+
+#ardalan-img {
+    width: 400px;
+    height: 400px;
+    margin-left: 140px;
+    padding-bottom: 100px;
+    display: flex;
+}
+
+#text-container {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: auto;
+    margin-top: auto;
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 36%;
+    padding-left: 32px;
+    padding-right: 32px;
+    border-radius: 50px;
+    padding-top: 12px;
+    padding-bottom: 24px;
+    word-wrap: break-word;
+    white-space: normal;
+    background-color: #edebeb;
+    
+}
+
+#about {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#text-body {
+    text-align: left;
+    
+}
+
+#content {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+/* PORTFOLIO */
+
+
+#dreams-text {
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    width: 20%;
+    height: 20%;
+    margin-top: 100px;
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+#dreams-name {
+    text-decoration: solid;
+    font-size: 24px;
+}
+
+
+#dreams-prototype {
+    margin-left: auto;
+    margin-right: 380px;
+    margin-top: 100px; 
+}
+
+#dreams {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 30%;
+    margin-top: 5%;
+    
+}
+
+/* RESUME */
+
+ul {
+    list-style-type: none; 
+}
+#resume-box {
+    height: auto;
+    display: flex;
+    display: row;
+    font-family: Helvetica, sans-serif;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+#projects {
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#education {
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h3 {
+    color: #a9ccff;
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* Frontend */
+
+#game-container {
+    color: white;
+    display: block;
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: rgb(103, 103, 103);
+    border: 5px solid rgb(205, 205, 205);
+    border-radius: 36px;
+    height: 200px;
+    width: 700px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#input {
+    width: 100px;
+    margin: 25px auto;
+}
+
+#btn {
+    font-family: helvetica, sans-serif;
+    margin: 25px auto auto 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: rgb(196, 196, 196);
+    border: 2px solid rgb(224, 165, 165);
+    border-radius: 4px;    
+}
+
+#userInput {
+    width: 20px;
+    height: 14px;
+    
+}
+
+/* MEDIA */
+
+@media only screen and (max-width: 1180px) {
+
+    html {
+        font-size: 80%;
+    }
+    
+    #content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #ardalan-img {
+        width: 400px;
+        height: 400px;
+        margin: auto;
+        padding: auto;
+        display: flex;
+    }
+
+    #text-container {
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    #dreams-prototype {
+        width: 300px;
+        height: 300px;
+        margin-top: 200px;
+    }
+
+}  
