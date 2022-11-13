@@ -1,0 +1,72 @@
+{
+        "mySkills":[
+            "UX Research",
+            "Product Design",
+            "Rapid Prototyping",
+            "Communication",
+            "UI Design",
+            "Gamification",
+            "Usability Testing",
+            "A/B Testing",
+            "Interactive Prototyping",
+            "WCAG",
+            "Empathy",
+            "HTML/CSS",
+            "JavaScript"      
+        ],
+
+        "myTools": [
+            "Figma",
+            "Protopie",
+            "Adobe XD",
+            "Photoshop",
+            "Premiere Pro",
+            "Miro",
+            "Logic Pro X",
+            "Visual Code Studio"
+        ],
+
+        "myLanguages":[
+            "Swedish",
+            "Persian",
+            "English"
+        ],
+
+        "HydroBay":[
+            "Designed a dashboard where the user can monitor and maintain their hydroponics/cultivation module remotely.",
+            "The dashboard visualizes data from a hydroponics Internet of Things artifact and utilizes AWS as a data host.",
+            "I worked in close cooperation with back-end and front-end developers."
+        ],
+
+        "FKassan":[
+            "Developed a new feature for the Swedish Social Insurance Agency's mobile application which helps the user to report VAB (temporary parental benefit) and to keep track of their parental allowance.", 
+            "I interviewed existing and potential end-users to validate the design and its serviceability."
+        ], 
+
+        "AreaChica" :[
+            "Redesigned their website and created a more seamless onboarding process.",
+            "Utilization of gamification to promote and encourage site activity.",
+            "I conducted several user interviews and did multiple usability tests on the low-fidelity & high-fidely prototypes."
+        ],
+
+        "DreamsNordic" : [
+            "Created 'The Coach'; a function that will assist the user in the onboarding process and customizes their experience based on their needs, habits and preferences.",
+            "I worked closely with the client from development to final prototype to ensure quality and efficiency."
+        ],
+
+        "FrontEnd":[
+            "Chas Academy",
+            "2022 - 2024"
+        ],
+
+        "UXDesigner":[
+            "Changemaker Educations",
+            "2020 - 2022"
+        ],
+
+        "MusicSoundDesigner":[
+            "Linnaeus University",
+            "2020 - 2022"
+        ]
+
+}

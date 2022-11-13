@@ -1,16 +1,15 @@
 fetch('resume-data.json')
 
-    .then(response => response.json())
-    .then(data =>{
+.then(response => response.json())
+.then(data =>{
 
-/* Projects */
 
-    let HydroBaylist = document.getElementById("Hydroponics Bay")
-    let HydroBay = data.HydroBay
+let HydroBaylist = document.getElementById("Hydroponics Bay")
+let HydroBay = data.HydroBay
     HydroBay.forEach((item)=>{
-        let li = document.createElement("li");
-        li.innerText = item;
-        HydroBaylist.appendChild(li);
+    let li = document.createElement("li");
+    li.innerText = item;
+    HydroBaylist.appendChild(li);
     })
 
     let FKassanlist = document.getElementById("Försäkringskassan")
@@ -29,8 +28,6 @@ fetch('resume-data.json')
         DreamsNordiclist.appendChild(li);
 })
 
-
-/* Education */
 
 let ChasAcademylist = document.getElementById("Chas Academy")    
 let ChasAcademy = data.ChasAcademy
@@ -51,11 +48,9 @@ myEducation.forEach((item)=>{
 let LinnaeusUniversitylist = document.getElementById("Linnaeus University")
 let LinnaeusUniversity = data.LinnaeusUniversity
 LinnaeusUniversity.forEach((item)=>{
-let li = document.createElement("li");
-li.innerText = item;
-LinnaeusUniversitylist.appendChild(li);
+    let li = document.createElement("li");
+    li.innerText = item;
+    LinnaeusUniversitylist.appendChild(li);
 })
 
-
-
-.catch(error => console.log(error));
+})
